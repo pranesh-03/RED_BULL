@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS Animation Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Login from </title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+<body>
+    <!-- <div class="result"></div> -->
+    <form id="login-form" method="post" class="container login py-5 bg-light">
+        
+            <div class="row g-0">
+                <div class="col-lg-5">
+                    <img src="assets/bull_login.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 text-center py-4 ">
+                    <h3>Hey Amigo ! LOGIN HERE</h3>
+                    <form method="POST">
+                        <input type="hidden" id="action" value="login">
+                        <div class="form-row py-2 pt-5">
+                            <div class="offset-1 col-lg-10">
+                                <input type="text" name="email" id="lemail" class="inp px-3" placeholder="UserEmail">
+                            </div>
+
+                        </div>
+                        <div class="form-row ">
+                            <div class="offset-1 col-lg-10">
+                                <input type="password" name="password" id="lpassword" class="inp px-3" placeholder="Password">
+                            </div>
+
+                        </div>
+                        <div class="form-row py-2 pt-5">
+                            <div class="offset-1 col-lg-10">
+                                <input type="button" value="Login" id="login" class="btn1">
+                            </div>
+                            <br>
+                            <a href="http://localhost/RED_BULL/register.html" class="btn btn-primary">Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
