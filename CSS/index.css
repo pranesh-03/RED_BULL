@@ -33,11 +33,12 @@ span{
     color:rgb(236,83,83);
 }
 .d-flex{
-    padding-right: 50px;
+    
     font-family: 'Dancing Script',cursive;
 
 }
-a{
+a{  
+    margin-left: 40px;
     text-decoration: none;
     color: white;
        
